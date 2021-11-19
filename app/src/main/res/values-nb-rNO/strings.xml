@@ -189,4 +189,9 @@
     <string name="practice">Øvelse</string>
     <string name="help">Hjelp</string>
     <string name="app_name">Der Die Das</string>
+    <string name="full_words_title">Helt innlært</string>
+    <string name="full_words_text">«Helt innlærte ord» er substantiver som har blitt besvart riktig fem ganger på rad. De anses «helt innlært» og vil ikke lenger vises på øvelsesskjermen. Det ultimate målet er å ha alle substantiver helt innlært.
+\n
+\nHvis et substantiv besvares riktig, men så feil før det tuktes fem ganger på rad, tilbakestilles det til null og prosessen starter på ny.</string>
+    <string name="fully_learned_words_all_words">Helt innlærte ord / alle ord:</string>
 </resources>
