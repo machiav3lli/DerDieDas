@@ -324,4 +324,17 @@
     <string name="dialog_no">Non</string>
     <string name="dialog_yes">Oui</string>
     <string name="finished">Tu as appris tous les noms, tu veux recommencer \?</string>
+    <string name="Volk">Peuple</string>
+    <string name="Ministerpräsident">Premier ministre</string>
+    <string name="Lehrer">Enseignant</string>
+    <string name="Mehrheit">Majorité</string>
+    <string name="Glück">Chance/bonheur</string>
+    <string name="Hotel">Hôtel</string>
+    <string name="Vorstellung">Imagination/présentation</string>
+    <string name="Wunsch">Souhait</string>
+    <string name="Herbst">Automne</string>
+    <string name="Bezirk">District</string>
+    <string name="Bruder">Frère</string>
+    <string name="Zusammenhang">Cohérence/connexion</string>
+    <string name="Arbeitsplatz">Lieu de travail</string>
 </resources>
