@@ -1,2 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">Der Die Das</string>
+    <string name="Tag">Dzień</string>
+    <string name="help">Pomoc</string>
+    <string name="fully_learned_words_all_words">Opanowane słówka / Wszystkie słówka:</string>
+    <string name="rate">Oceń</string>
+    <string name="placeholder">123 / 456</string>
+    <string name="der">Der</string>
+    <string name="das">Das</string>
+    <string name="die">Die</string>
+    <string name="prefs_theme">Motyw</string>
+    <string name="theme_light">Jasny</string>
+    <string name="theme_dark">Ciemny</string>
+    <string name="theme_system">Motyw systemu</string>
+    <string name="finished">Opanowałeś już całe słownictwo, czy chcesz zacząć od początku\?</string>
+    <string name="dialog_yes">Tak</string>
+    <string name="dialog_no">Nie</string>
+    <string name="Jahr">Rok</string>
+    <string name="Prozent">Procent</string>
+    <string name="Zeit">Czas</string>
+    <string name="Kind">Dziecko</string>
+    <string name="Euro">Euro</string>
+    <string name="Mensch">Człowiek</string>
+    <string name="Stadt">Miasto</string>
+    <string name="Land">Kraj</string>
+    <string name="Mann">Mężczyzna</string>
+    <string name="Ende">Koniec</string>
+    <string name="Woche">Tydzień</string>
+    <string name="Platz">Miejsce/Plac</string>
+    <string name="Spiel">Gra/Zabawa</string>
+    <string name="Haus">Dom</string>
+    <string name="Samstag">Sobota</string>
+    <string name="Sonntag">Niedziela</string>
+    <string name="Leben">Życie</string>
+    <string name="Frau">Kobieta</string>
+    <string name="full_words_title">Opanowane</string>
+    <string name="stats">Statystyki</string>
+    <string name="practice">Trenuj</string>
+    <string name="settings">Ustawienia</string>
+    <string name="share">Udostępnij</string>
+</resources>
