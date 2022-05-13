@@ -108,4 +108,17 @@
     <string name="Hilfe">Pomoc</string>
     <string name="Grüne">Zielony</string>
     <string name="Wochenende">Weekend</string>
+    <string name="Anfang">Początek/Start</string>
+    <string name="Folge">Konsekwencja</string>
+    <string name="Wahl">Wybór/Wybory (pol.)</string>
+    <string name="Kreis">Okrąg/Powiat</string>
+    <string name="Ergebnis">Wynik</string>
+    <string name="Patentamt">Urząd Patentowy</string>
+    <string name="Schüler">Uczeń</string>
+    <string name="Mitarbeiter">Pracownik/Współpracownik</string>
+    <string name="Firma">Firma/Przedsiębiorstwo</string>
+    <string name="Bürgermeister">Burmistrz</string>
+    <string name="Diskussion">Dyskusja</string>
+    <string name="Gespräch">Rozmowa</string>
+    <string name="Entscheidung">Decyzja</string>
 </resources>
