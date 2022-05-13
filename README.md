@@ -4,7 +4,14 @@ Android app for learning German nouns genders.
 
 Contains almost 10,000 German nouns.
 
-Try the app by using the apk under [releases](https://github.com/machiav3lli/DerDieDas/releases).
+[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
+     alt="Get it on F-Droid"
+     height="80">](https://f-droid.org/packages/com.machiav3lli.derdiedas/)
+[<img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png"
+     alt="Get it on F-Droid"
+     height="80">](https://apt.izzysoft.de/fdroid/index/apk/com.machiav3lli.derdiedas)
+
+Otherwise, you can download the apk from the [releases](https://github.com/machiav3lli/DerDieDas/releases).
 
 ## Screenshots
 
