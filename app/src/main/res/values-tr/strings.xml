@@ -1,2 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="help">Yardım</string>
+    <string name="fully_learned_words_all_words">Tam öğrenilen kelimeler / Tüm kelimeler:</string>
+    <string name="app_name">Der Die Das</string>
+    <string name="full_words_title">Tamamen Öğrenilmiş</string>
+    <string name="stats">İstatistikler</string>
+    <string name="share">Paylaş</string>
+    <string name="prefs_theme">Tema</string>
+    <string name="theme_light">Açık</string>
+    <string name="theme_dark">Koyu</string>
+    <string name="finished">Tüm isimleri tamamen öğrendiniz, baştan başlamak ister misiniz\?</string>
+    <string name="dialog_yes">Evet</string>
+    <string name="dialog_no">Hayır</string>
+    <string name="Jahr">Yıl</string>
+    <string name="Zeit">Zaman</string>
+    <string name="Land">Ülke</string>
+    <string name="Mann">Erkek</string>
+    <string name="Ende">Son</string>
+    <string name="Woche">Hafta</string>
+    <string name="Platz">Boşluk/Yer</string>
+    <string name="Spiel">Oyun</string>
+    <string name="Seite">Taraf</string>
+    <string name="Haus">Ev</string>
+    <string name="Samstag">Cumartesi</string>
+    <string name="Sonntag">Pazar</string>
+    <string name="settings">Ayarlar</string>
+    <string name="practice">Alıştırma</string>
+    <string name="rate">Değerlendir</string>
+    <string name="theme_system">Sistem teması</string>
+    <string name="placeholder">123 / 456</string>
+    <string name="prefs_language">Dil</string>
+    <string name="prefs_language_system">Sistem varsayılanı</string>
+    <string name="Uhr">Saat</string>
+    <string name="Kind">Çocuk</string>
+    <string name="Prozent">Yüzde</string>
+    <string name="Euro">Euro</string>
+    <string name="Tag">Gün</string>
+    <string name="Frau">Kadın</string>
+    <string name="Mensch">İnsan</string>
+    <string name="Stadt">Şehir</string>
+    <string name="Leben">Hayat</string>
+    <string name="Million">Milyon</string>
+</resources>
