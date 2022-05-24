@@ -812,4 +812,17 @@
     <string name="Urlaub">Vakantie</string>
     <string name="Meer">Zee</string>
     <string name="Wolf">Wolf</string>
+    <string name="full_words_text">\"Volledig geleerde woorden\" zijn zelfstandig naamwoorden die vijf keer achter elkaar correct zijn beantwoord. Ze worden dan als \"volledig geleerd\" bestempeld en komen niet meer terug in het oefenscherm. Het uiteindelijke doel is om alle zelfstandig naamwoorden \"volledig te leren\".
+\n
+\nAls een zelfstandig naamwoord correct is beantwoord, maar daarna incorrect is beantwoord, wordt het gereset naar 0 en het proces om 5 achter elkaar te krijgen start opnieuw voor dat zelfstandig naamwoord.</string>
+    <string name="Art">Manier</string>
+    <string name="Hilfe">Help/Hulp</string>
+    <string name="Gesetz">Recht</string>
+    <string name="Berliner">Berlijner</string>
+    <string name="Licht">Licht</string>
+    <string name="Nähe">Nabijheid</string>
+    <string name="Forderung">Vordering/Claim</string>
+    <string name="Spitze">Spits/Top/Punt</string>
+    <string name="Professor">Professor</string>
+    <string name="Schluss">Slot</string>
 </resources>
