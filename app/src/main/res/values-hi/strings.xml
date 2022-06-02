@@ -1,2 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">Der Die Das</string>
+    <string name="full_words_title">पूरी तरह से सीखा</string>
+    <string name="help">मदद</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="stats">आँकड़े</string>
+    <string name="share">शेयर</string>
+    <string name="full_words_text">\"पूरी तरह से सीखे गए शब्द\" का अर्थ उन संज्ञाओं से है जिनका लगातार 5 बार सही उत्तर दिया गया है। तब उन्हें \"पूरी तरह से सीखा हुआ\" माना जाता है और वे अब अभ्यास स्क्रीन में दिखाई नहीं देते हैं। अंतिम लक्ष्य सभी संज्ञाओं को \"पूरी तरह से सीखना\" होना चाहिए।
+\n
+\nयदि किसी संज्ञा का सही उत्तर दिया जाता है, लेकिन फिर गलत तरीके से लगातार 5 बार प्राप्त करने से पहले, उसे वापस 0 पर रीसेट कर दिया जाता है और उस संज्ञा के लिए एक पंक्ति में 5 बार आने की प्रक्रिया फिर से शुरू होती है।</string>
+    <string name="fully_learned_words_all_words">पूरी तरह से सीखे गए शब्द / सभी शब्द:</string>
+    <string name="practice">अभ्यास</string>
+</resources>
