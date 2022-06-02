@@ -1,2 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="full_words_title">Vollständig gelernt</string>
+    <string name="help">Hilfe</string>
+    <string name="fully_learned_words_all_words">Vollständig gelernte Wörter / Alle Wörter:</string>
+    <string name="practice">Übung</string>
+    <string name="settings">Einstellungen</string>
+    <string name="prefs_theme">Thema</string>
+    <string name="theme_light">Licht</string>
+    <string name="theme_dark">Dunkel</string>
+    <string name="theme_system">Thema des Systems</string>
+    <string name="prefs_language">Sprache</string>
+    <string name="prefs_language_system">Systemvorgabe</string>
+    <string name="finished">Sie haben alle Substantive gelernt und wollen noch einmal von vorne anfangen\?</string>
+    <string name="Jahr">Jahr</string>
+    <string name="Uhr">Uhr</string>
+    <string name="Zeit">Zeit</string>
+    <string name="Kind">Kind</string>
+    <string name="app_name">Der Die Das</string>
+    <string name="dialog_yes">Ja</string>
+    <string name="rate">Rate</string>
+    <string name="full_words_text">\"Vollständig gelernte Wörter\" sind Substantive, die 5 Mal hintereinander richtig beantwortet wurden. Sie gelten dann als \"vollständig gelernt\" und erscheinen nicht mehr auf dem Übungsbildschirm. Das ultimative Ziel sollte sein, alle Substantive \"vollständig zu lernen\".
+\n
+\nWenn ein Substantiv richtig beantwortet wird, dann aber falsch, bevor es 5 Mal in Folge richtig ist, wird es auf 0 zurückgesetzt und der Prozess, 5 Mal in Folge richtig zu sein, beginnt für dieses Substantiv erneut.</string>
+    <string name="noun_placeholder">Bundeswirtschaftsministerium</string>
+    <string name="das">Das</string>
+    <string name="stats">Statistiken</string>
+    <string name="der">Der</string>
+    <string name="share">Anteil</string>
+    <string name="placeholder">123 / 456</string>
+    <string name="die">Die</string>
+    <string name="Prozent">Prozent</string>
+    <string name="Euro">Euro</string>
+    <string name="dialog_no">Nein</string>
+    <string name="Tag">Tag</string>
+</resources>
