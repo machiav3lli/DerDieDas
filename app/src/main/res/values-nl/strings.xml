@@ -825,4 +825,18 @@
     <string name="Spitze">Spits/Top/Punt</string>
     <string name="Professor">Professor</string>
     <string name="Schluss">Slot</string>
+    <string name="Gemeinde">Gemeenschap</string>
+    <string name="Mannschaft">Team</string>
+    <string name="Angabe">Verklaring</string>
+    <string name="Amt">Overheidskantoor</string>
+    <string name="Leistung">Prestatie</string>
+    <string name="Lage">Locatie</string>
+    <string name="Hinweis">Aanwijzingen</string>
+    <string name="Union">Unie</string>
+    <string name="Konzept">Concept</string>
+    <string name="Stand">Stand</string>
+    <string name="Rang">Rang</string>
+    <string name="Arbeitsplatz">Werkplek</string>
+    <string name="Wettbewerb">Competitie</string>
+    <string name="Klasse">Klasse</string>
 </resources>
