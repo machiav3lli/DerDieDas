@@ -235,7 +235,7 @@
     <string name="Tochter">Córka</string>
     <string name="full_words_text">\"Opanowane słówka\" to rzeczowniki do których rodzajnik został poprawnie dopasowany 5 razy z rzędu. Są wtedy uznane za \"opanowane\" i nie są wyświetlane podczas treningu. Twoim celem powinno być \"opanowanie\" wszystkich rzeczowników.
 \n
-\nW przypadku niepoprawnej odpowiedzi przed osiągnięciem pięciu dopasowań z rzędu, licznik się zeruje i proces rozpoczyna się od nowa dla tego rzeczownika.</string>
+\nW przypadku niepoprawnej odpowiedzi przed osiągnięciem pięciu dopasowań z rzędu, licznik ten się zeruje i proces rozpoczyna się od nowa dla tego rzeczownika.</string>
     <string name="Bühne">Scena</string>
     <string name="Text">Tekst</string>
     <string name="Satz">Zdanie (gramatyka)/Zestaw</string>
