@@ -469,4 +469,15 @@
     <string name="Verlust">Strata</string>
     <string name="Spur">Ślad</string>
     <string name="Wetter">Pogoda</string>
+    <string name="Forderung">Żądanie/Wymaganie</string>
+    <string name="Rathaus">Ratusz</string>
+    <string name="Bundesregierung">Rząd federalny</string>
+    <string name="Gewinn">Wygrana/Zysk</string>
+    <string name="Macht">Moc/Władza/Potęga</string>
+    <string name="Truppe">Oddział</string>
+    <string name="Stadtrat">Rada miejska</string>
+    <string name="Produktion">Produkcja</string>
+    <string name="Untersuchung">Badanie/Śledztwo</string>
+    <string name="Änderung">Zmiana</string>
+    <string name="Feld">Pole/Obszar/Dziedzina</string>
 </resources>
