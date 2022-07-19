@@ -667,4 +667,15 @@
     <string name="Leiche">Zwłoki</string>
     <string name="Musical">Musical</string>
     <string name="Halbfinale">Półfinał</string>
+    <string name="Netz">Sieć/Siatka</string>
+    <string name="Widerstand">Opór</string>
+    <string name="Ursache">Przyczyna/Powód</string>
+    <string name="Burg">Zamek (budowla)</string>
+    <string name="West">Zachód</string>
+    <string name="Eröffnung">Otwarcie</string>
+    <string name="Gerät">Urządzenie</string>
+    <string name="Zwei">Dwa</string>
+    <string name="Stern">Gwiazda</string>
+    <string name="Messe">Targi/Msza/Wystawa</string>
+    <string name="Industrie">Przemysł</string>
 </resources>
