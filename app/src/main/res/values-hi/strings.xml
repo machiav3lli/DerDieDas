@@ -12,4 +12,7 @@
     <string name="fully_learned_words_all_words">पूरी तरह से सीखे गए शब्द / सभी शब्द:</string>
     <string name="practice">अभ्यास</string>
     <string name="rate">मूल्यांकन</string>
+    <string name="placeholder">123 / 456</string>
+    <string name="theme_system">सिस्टम की थीम</string>
+    <string name="prefs_language">भाषा</string>
 </resources>
