@@ -33,4 +33,6 @@
     <string name="Euro">Euro</string>
     <string name="dialog_no">Nein</string>
     <string name="Tag">Tag</string>
+    <string name="Frau">Frau</string>
+    <string name="Mensch">Menschlich</string>
 </resources>
