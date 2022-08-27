@@ -678,4 +678,22 @@
     <string name="Stern">Gwiazda</string>
     <string name="Messe">Targi/Msza/Wystawa</string>
     <string name="Industrie">Przemysł</string>
+    <string name="Wissenschaft">Nauka</string>
+    <string name="Bein">Noga</string>
+    <string name="Gold">Złoto</string>
+    <string name="Schwester">Siostra</string>
+    <string name="Kreuz">Krzyż</string>
+    <string name="Erwachsene">Dorosły</string>
+    <string name="Maschine">Maszyna</string>
+    <string name="Westen">Zachód</string>
+    <string name="Amerikaner">Amerykanin</string>
+    <string name="Kommentar">Komentarz</string>
+    <string name="Tanz">Taniec</string>
+    <string name="Helfer">Pomocnik</string>
+    <string name="Jude">Żyd</string>
+    <string name="Festival">Festiwal</string>
+    <string name="Süden">Południe</string>
+    <string name="Reaktion">Reakcja</string>
+    <string name="Premiere">Premiera</string>
+    <string name="Nachbar">Sąsiad</string>
 </resources>
