@@ -35,4 +35,11 @@
     <string name="Tag">Tag</string>
     <string name="Frau">Frau</string>
     <string name="Mensch">Menschlich</string>
+    <string name="Spiel">Spiel</string>
+    <string name="Stadt">Stadt</string>
+    <string name="Land">Land</string>
+    <string name="Mann">Mann</string>
+    <string name="Ende">Ende</string>
+    <string name="Woche">Woche</string>
+    <string name="Platz">Platz</string>
 </resources>
