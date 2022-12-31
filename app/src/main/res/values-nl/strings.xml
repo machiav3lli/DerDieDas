@@ -840,4 +840,6 @@
     <string name="Wettbewerb">Competitie</string>
     <string name="Klasse">Klasse</string>
     <string name="Vorjahr">vorig jaar</string>
+    <string name="Verband">verband</string>
+    <string name="Hotel">hotel</string>
 </resources>
