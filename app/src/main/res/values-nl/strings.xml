@@ -876,4 +876,22 @@
     <string name="Abgeordnete">vertegenwoordigster, parlementariër</string>
     <string name="Ausbildung">opleiding, vorming</string>
     <string name="Ausgabe">uitgave, uitvoer</string>
+    <string name="Suche">zoektocht, zoekopdracht</string>
+    <string name="Nachmittag">middag</string>
+    <string name="Aktie">aandeel</string>
+    <string name="Konkurrenz">concurrentie</string>
+    <string name="Müller">molenaar</string>
+    <string name="Kommission">commissie</string>
+    <string name="Schilling">schilling</string>
+    <string name="Staatsanwaltschaft">vervolging</string>
+    <string name="Bundestag">parlement</string>
+    <string name="Bildung">onderwijs, vorming</string>
+    <string name="Ereignis">gebeurtenis</string>
+    <string name="Einführung">inleiding</string>
+    <string name="Darstellung">beschrijving, presentatie</string>
+    <string name="Bundesland">deelstaat, federale staat</string>
+    <string name="Begegnung">ontmoeting</string>
+    <string name="Förderung">ondersteuning, bijstand</string>
+    <string name="Eröffnung">opening</string>
+    <string name="Rand">rand</string>
 </resources>
