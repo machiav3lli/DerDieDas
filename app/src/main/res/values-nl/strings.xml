@@ -894,4 +894,14 @@
     <string name="Förderung">ondersteuning, bijstand</string>
     <string name="Eröffnung">opening</string>
     <string name="Rand">rand</string>
+    <string name="Methode">methode</string>
+    <string name="Einnahme">inkomen; inneming</string>
+    <string name="Objekt">object</string>
+    <string name="Investor">investeerder</string>
+    <string name="Orchester">orkest</string>
+    <string name="Treffpunkt">trefpunt</string>
+    <string name="Aufbau">opbouw; inrichting</string>
+    <string name="Bezug">verwijzing; aankoop</string>
+    <string name="Kooperation">coöperatie, samenwerking</string>
+    <string name="Vorbild">voorbeeld, model</string>
 </resources>
