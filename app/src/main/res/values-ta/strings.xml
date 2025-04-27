@@ -50,7 +50,7 @@
     <string name="Mann">மனிதன்</string>
     <string name="Ende">முடிவு</string>
     <string name="Woche">வாரம்</string>
-    <string name="Platz">இடம்/இடம்</string>
+    <string name="Platz">வெளி/இடம்</string>
     <string name="Spiel">விளையாட்டு</string>
     <string name="Seite">பக்கம்</string>
     <string name="Haus">வீடு</string>
@@ -62,7 +62,7 @@
     <string name="Frage">கேள்வி</string>
     <string name="Teil">உருப்படி</string>
     <string name="Arbeit">வேலை</string>
-    <string name="Bild">படம்/படம்</string>
+    <string name="Bild">உருவப்படம்/படம்</string>
     <string name="Fall">வழக்கு/வீழ்ச்சி</string>
     <string name="Weg">பாதை</string>
     <string name="Mai">சி-வைகாசி</string>
