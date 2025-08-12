@@ -41,4 +41,12 @@
     <string name="Stadt">Şehir</string>
     <string name="Leben">Hayat</string>
     <string name="Million">Milyon</string>
+    <string name="Frage">Soru</string>
+    <string name="Thema">Konu</string>
+    <string name="Welt">Dünya</string>
+    <string name="Mitglied">Üye</string>
+    <string name="Straße">Sokak</string>
+    <string name="full_words_text">\"Tamamen öğrenilen kelimeler\" 5 kez üst üste doğru cevaplanan isim ögeleridir. \"Tamamen öğrenilmiş\" sayılırlar ve pratik ekranında artık çıkmazlar. Hedefiniz tüm isim ögelerini \"tamamen öğrenmek\" olmalıdır.
+\n
+\nBir isim ögesi doğru cevaplanır ancak 5 kez üst üste olmadan yanlış cevaplanırsa, sayım 0\'a döner ve 5 kez üst üste doğru cevaplama süreci o isim ögesi için baştan başlar.</string>
 </resources>

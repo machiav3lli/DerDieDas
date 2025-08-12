@@ -15,4 +15,5 @@
     <string name="placeholder">123 / 456</string>
     <string name="theme_system">सिस्टम की थीम</string>
     <string name="prefs_language">भाषा</string>
+    <string name="prefs_theme">विषय</string>
 </resources>

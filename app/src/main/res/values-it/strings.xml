@@ -279,4 +279,23 @@
     <string name="Platz">Spazio/Piazza</string>
     <string name="Woche">Settimana</string>
     <string name="Ende">Fine</string>
+    <string name="prefs_language">Lingua</string>
+    <string name="prefs_language_system">Predefinito di sistema</string>
+    <string name="Revolution">Rivoluzione</string>
+    <string name="Gewinner">Vincitore</string>
+    <string name="Grüne">Verde</string>
+    <string name="Leistung">Prestazioni</string>
+    <string name="Lage"></string>
+    <string name="Tier">Animale</string>
+    <string name="Theater">Teatro</string>
+    <string name="Meinung">Opinione</string>
+    <string name="Schritt">Passo</string>
+    <string name="Gebiet">Territorio</string>
+    <string name="Herbst">Autunno</string>
+    <string name="Heimat">Casa</string>
+    <string name="Helfer">Aiutante</string>
+    <string name="Hochschule">College/Università</string>
+    <string name="Schuss">Proiettile</string>
+    <string name="Neubau">Nuova Costruzione</string>
+    <string name="Bibliothek">Biblioteca</string>
 </resources>

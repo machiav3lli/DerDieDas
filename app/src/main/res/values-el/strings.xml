@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="theme_light">Φωτεινό</string>
+    <string name="rate">Βαθμολογίστε μας</string>
+    <string name="theme_dark">Σκούρο</string>
+    <string name="practice">Εξάσκηση</string>
+    <string name="theme_system">Θέμα συστήματος</string>
+    <string name="fully_learned_words_all_words">Εντελώς μαθημένες λέξεις / Όλες οι λέξεις:</string>
+    <string name="die">Η</string>
+    <string name="full_words_text">Οι \"εντελώς μαθημένες λέξεις\" είναι ουσιαστικά για τα οποία έχετε απαντήσει σωστά 5 φορές συνεχόμενα. Όταν απαντήσετε σωστά 5 φορές συνεχόμενα, θεωρούνται \"εντελώς μαθημένες\" και δεν θα εμφανίζονται στην οθόνη εξάσκησης. Ο τελικός στόχος είναι να \"μάθετε εντελώς\" όλα τα ουσιαστικά.
+\n
+\nΕάν απαντήσετε σωστά σε ένα ουσιαστικό, αλλά μετά λανθασμένα πριν καταφέρετε να το βρείτε σωστά 5 φορές συνεχόμενα, θα πάει πίσω στο 0 και η μέτρηση ξαναρχίζει μέχρι να το βρείτε σωστά 5 φορές συνεχόμενα.</string>
+    <string name="Jahr">Έτος</string>
+    <string name="help">Βοήθεια</string>
+    <string name="das">Το</string>
+    <string name="full_words_title">Εντελώς μαθημένες</string>
+    <string name="placeholder">123 / 456</string>
+    <string name="prefs_theme">Θέμα</string>
+    <string name="dialog_no">Όχι</string>
+    <string name="der">Ο</string>
+    <string name="stats">Στατιστικά</string>
+    <string name="dialog_yes">Ναι</string>
+    <string name="finished">Έμαθες εντελώς όλα τα ουσιαστικά, θέλεις να ξεκινήσεις από την αρχή;</string>
+    <string name="prefs_language">Γλώσσα</string>
+    <string name="settings">Ρυθμίσεις</string>
+    <string name="app_name">Ο, η, το</string>
+    <string name="share">Μοιραστείτε</string>
+    <string name="prefs_language_system">Προεπιλεγμένο συστήματος</string>
+</resources>
