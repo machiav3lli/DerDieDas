@@ -16,7 +16,7 @@ ksp {
 android {
     namespace = "com.machiav3lli.derdiedas"
 
-    compileSdk = 34
+    compileSdk = 36
     defaultConfig {
         applicationId = "com.machiav3lli.derdiedas"
         minSdk = 24
