@@ -20,7 +20,7 @@ android {
     defaultConfig {
         applicationId = "com.machiav3lli.derdiedas"
         minSdk = 24
-        targetSdk = 33
+        targetSdk = 36
         versionCode = 2200
         versionName = "2.2.0"
 
