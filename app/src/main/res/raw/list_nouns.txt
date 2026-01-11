@@ -1815,7 +1815,6 @@ Schlüssel,m
 Verstoß,m
 Vormittag,m
 Beitritt,m
-Schweizer,m
 Kreisliga,f
 Nationalrat,m
 Spielerin,f
@@ -1967,7 +1966,6 @@ Behinderung,f
 Diebstahl,m
 Durchbruch,m
 Republikaner,m
-Kölner,m
 Schock,m
 Akte,f
 Ergänzung,f
@@ -3044,7 +3042,6 @@ Vers,m
 Außenpolitik,f
 Verfassungsschutz,m
 Schulhaus,n
-Stuttgarter,m
 Einspruch,m
 Freiherr,m
 Abwesenheit,f
