@@ -1,17 +1,17 @@
-import com.android.build.gradle.internal.tasks.factory.dependsOn
-
 plugins {
-    id("com.android.application")
-    kotlin("android")
-    id("com.google.devtools.ksp") version ("1.9.10-1.0.13")
+    alias(libs.plugins.android.application)
+    alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.ksp)
 }
 
-val vKotlin = "1.9.10"
-val vKSP = "1.0.13"
-val vLifecycle = "2.6.2"
-val vMaterial = "1.10.0"
-val vPreference = "1.2.1"
-val vRoom = "2.6.0-rc01"
+val detectedLocales = detectLocales()
+val langsListString = "{${detectedLocales.sorted().joinToString(",") { "\"$it\"" }}}"
+
+ksp {
+    arg("room.schemaLocation", "$projectDir/schemas")
+    arg("room.incremental", "true")
+    arg("room.generateKotlin", "true")
+}
 
 android {
     namespace = "com.machiav3lli.derdiedas"
@@ -25,15 +25,7 @@ android {
         versionName = "2.2.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-
-        javaCompileOptions {
-            annotationProcessorOptions {
-                ksp {
-                    arg("room.schemaLocation", "$projectDir/schemas")
-                    arg("room.incremental", "true")
-                }
-            }
-        }
+        buildConfigField("String[]", "DETECTED_LOCALES", langsListString)
     }
 
     buildTypes {
@@ -63,39 +55,34 @@ android {
 }
 
 dependencies {
-    implementation(kotlin("stdlib", vKotlin))
-    implementation("com.google.devtools.ksp:symbol-processing-api:$vKotlin-$vKSP")
+    implementation(libs.kotlin.stdlib)
+    implementation(libs.ksp)
 
     //Libs
-    implementation("androidx.room:room-runtime:$vRoom")
-    implementation("androidx.room:room-ktx:$vRoom")
-    ksp("androidx.room:room-compiler:$vRoom")
-    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$vLifecycle")
+    implementation(libs.androidx.room.runtime)
+    implementation(libs.androidx.room.ktx)
+    ksp(libs.androidx.room.compiler)
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
 
     // UI
-    implementation("androidx.preference:preference-ktx:$vPreference")
-    implementation("com.google.android.material:material:$vMaterial")
+    implementation(libs.androidx.preference.ktx)
+    implementation(libs.material)
 
     // Test
-    implementation("androidx.test.ext:junit:1.1.5")
-    implementation("androidx.test.espresso:espresso-core:3.5.1")
+    implementation(libs.androidx.test.junit)
+    implementation(libs.androidx.test.espresso.core)
 }
 
-// using a task as a preBuild dependency instead of a function that takes some time insures that it runs
-task("detectAndroidLocals") {
-    val langsList: MutableSet<String> = HashSet()
-
+fun detectLocales(): Set<String> {
     // in /res are (almost) all languages that have a translated string is saved. this is safer and saves some time
+    val langsList = mutableSetOf<String>()
     fileTree("src/main/res").visit {
-        if (this.file.path.endsWith("strings.xml")
-            && this.file.canonicalFile.readText().contains("<string")
-        ) {
-            var languageCode = this.file.parentFile.name.replace("values-", "")
-            languageCode = if (languageCode == "values") "en" else languageCode
-            langsList.add(languageCode)
+        if (this.file.name == "strings.xml" && this.file.readText().contains("<string")) {
+            val languageCode = this.file.parentFile?.name?.removePrefix("values-")?.let {
+                if (it == "values") "en" else it
+            }
+            languageCode?.let { langsList.add(it) }
         }
     }
-    val langsListString = "{${langsList.joinToString(",") { "\"${it}\"" }}}"
-    android.defaultConfig.buildConfigField("String[]", "DETECTED_LOCALES", langsListString)
+    return langsList
 }
-tasks.preBuild.dependsOn("detectAndroidLocals")
