@@ -5,7 +5,7 @@ import android.content.res.Resources
 import com.machiav3lli.derdiedas.data.Noun
 
 fun Context.getStringByName(name: String) = try {
-    val resId = resources.getIdentifier(name, "string", packageName)
+    val resId = resources.getIdentifier(name.replace("-", "_"), "string", packageName)
     getString(resId)
 } catch (e: Resources.NotFoundException) {
     null

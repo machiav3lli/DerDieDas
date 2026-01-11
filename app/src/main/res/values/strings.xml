@@ -24,7 +24,7 @@
     <string name="finished">Fully learned all nouns, want to start over?</string>
     <string name="dialog_yes">Yes</string>
     <string name="dialog_no">No</string>
-    <!-- 1-100 -->
+    <!-- 1-1000 -->
     <string name="Jahr">Year</string>
     <string name="Uhr">Clock</string>
     <string name="Prozent">Percent</string>
@@ -125,7 +125,6 @@
     <string name="Schüler">Pupil</string>
     <string name="Anfang">Start</string>
     <string name="Chance">Chance</string>
-    <!-- 101-200  -->
     <string name="Person">Person</string>
     <string name="Kreis">Circle/District</string>
     <string name="Herr">Mr.</string>
@@ -226,7 +225,6 @@
     <string name="Situation">Situation</string>
     <string name="Publikum">Audience/Crowd</string>
     <string name="Opfer">Victim</string>
-    <!-- 201-300  -->
     <string name="Zug">Train</string>
     <string name="Museum">Museum</string>
     <string name="Konzert">Concert</string>
@@ -327,7 +325,6 @@
     <string name="Auftritt">Appearance/Performance</string>
     <string name="Konzept">Concept</string>
     <string name="Prozess">Process</string>
-    <!-- 301-400  -->
     <string name="Verband">Union/Bandage</string>
     <string name="Stand">Status/Score</string>
     <string name="Volk">Folk/People(ethn.)</string>
@@ -428,7 +425,6 @@
     <string name="Szene">Scene</string>
     <string name="Patient">Patient</string>
     <string name="Ausgabe">Output/Edition/Expense</string>
-    <!-- 401-500  -->
     <string name="Landkreis">County</string>
     <string name="Grad">Degree/Rate</string>
     <string name="Gefühl">Feeling</string>
@@ -529,7 +525,6 @@
     <string name="Flughafen">Airport</string>
     <string name="Schilling">Schilling</string>
     <string name="Pfarrer">Pastor</string>
-    <!-- 501-600  -->
     <string name="Fahrt">Journey/Ride</string>
     <string name="Hund">Dog</string>
     <string name="Stiftung">Foundation/Endowment</string>
@@ -630,7 +625,6 @@
     <string name="Bischof">Bishop</string>
     <string name="Verbandsgemeinde">Association member</string>
     <string name="Traum">Dream</string>
-    <!-- 601-700  -->
     <string name="Gymnasium">(Academic) High School</string>
     <string name="Risiko">Risk/Hazard</string>
     <string name="Saal">Hall</string>
@@ -731,7 +725,6 @@
     <string name="Auseinandersetzung">Dispute/Controversy</string>
     <string name="Sanierung">Sanitation</string>
     <string name="Beteiligung">Involvement/Contribution</string>
-    <!-- 701-800  -->
     <string name="Alternative">Alternative</string>
     <string name="Kommune">Municipality/Commune</string>
     <string name="Auszeichnung">Award/Kudo</string>
@@ -759,7 +752,6 @@
     <string name="Strom">Electricity/Flow</string>
     <string name="Beratung">Consultation</string>
     <string name="Beweis">Evidence</string>
-    <string name="Mainzer">Mainzer</string>
     <string name="Presse">Press</string>
     <string name="Ernst">Serious/Earnst</string>
     <string name="Architekt">Architect</string>
@@ -832,7 +824,6 @@
     <string name="Neubau">New Construction</string>
     <string name="Hersteller">Producer</string>
     <string name="Ebene">Level/Tier</string>
-    <!-- 801-900  -->
     <string name="Gesundheit">Health</string>
     <string name="Papst">Pope</string>
     <string name="Element">Element/Item</string>
@@ -933,7 +924,6 @@
     <string name="Nutzung">Usage</string>
     <string name="Aussicht">Prospect</string>
     <string name="Auswirkung">Impact/Repercussion</string>
-    <!-- 901-1000  -->
     <string name="Benutzer">User</string>
     <string name="Regen">Rain</string>
     <string name="Ehe">Marriage</string>
@@ -1034,7 +1024,7 @@
     <string name="Tourismus">Tourism</string>
     <string name="Sparkasse">Savings Bank</string>
     <string name="Perspektive">Prospect/Perspective</string>
-    <!-- 1001-1100  -->
+    <!-- 1001-2000  -->
     <string name="Kanzler">Chancellor</string>
     <string name="Homepage">Homepage</string>
     <string name="Wirklichkeit">Reality</string>
@@ -1135,7 +1125,6 @@
     <string name="Organisator">Organiser</string>
     <string name="Tal">Valley</string>
     <string name="Sponsor">Sponsor</string>
-    <!-- 1101-1200  -->
     <string name="Militär">Military</string>
     <string name="Gestaltung">Form/Composition</string>
     <string name="Umfeld">Environment</string>
@@ -1236,7 +1225,6 @@
     <string name="Musical">Musical</string>
     <string name="Leiche">Corpse</string>
     <string name="Villa">Mansion/Villa</string>
-    <!-- 1201-1300  -->
     <string name="Bremer">Bremer</string>
     <string name="Mischung">Mixture</string>
     <string name="Inszenierung">Enactment</string>
@@ -1674,7 +1662,6 @@
     <string name="Bewertung">Evaluation</string>
     <string name="Drama">Drama</string>
     <string name="Endspiel">Final</string>
-    <string name="Kölner">Cologne resident</string>
     <string name="Kleidung">Clothing</string>
     <string name="Humor">Humor</string>
     <string name="Fürst">Prince</string>
@@ -1715,7 +1702,7 @@
     <string name="Turnhalle">Gymnasium</string>
     <string name="Verteidigungsminister">Defense minister</string>
     <string name="Gründer">Founder</string>
-    <string name="US-Präsident">US president</string>
+    <string name="US_Präsident">US president</string>
     <string name="Scheibe">Disc</string>
     <string name="Sex">Sex</string>
     <string name="Bereitschaft">Readiness</string>
@@ -1779,7 +1766,7 @@
     <string name="Kürzung">Cut</string>
     <string name="Heft">Booklet</string>
     <string name="Terror">Terror</string>
-    <string name="EU-Kommission">EU Commission</string>
+    <string name="EU_Kommission">EU Commission</string>
     <string name="Nerv">Nerve</string>
     <string name="Impuls">Impulse</string>
     <string name="Entfernung">Distance</string>
@@ -1853,7 +1840,6 @@
     <string name="Verstoß">Violation</string>
     <string name="Vormittag">Morning</string>
     <string name="Beitritt">Accession</string>
-    <string name="Schweizer">Swiss</string>
     <string name="Kreisliga">District league</string>
     <string name="Nationalrat">National council</string>
     <string name="Spielerin">Player</string>
@@ -1869,7 +1855,7 @@
     <string name="Paket">Package</string>
     <string name="Jagd">Hunt</string>
     <string name="Behinderte">Disabled person</string>
-    <string name="Come-back">Comeback</string>
+    <string name="Come_back">Comeback</string>
     <string name="Bauwerk">Building</string>
     <string name="Erzbischof">Archbishop</string>
     <string name="Maßstab">Scale</string>
@@ -2036,6 +2022,7 @@
     <string name="Hang">Slope/Tendency</string>
     <string name="Zeugnis">Certificate/Testimony</string>
     <string name="Plattform">Platform</string>
+    <!-- 2001-3000  -->
     <string name="Tenor">Tenor</string>
     <string name="Weiterbildung">Further Education/Training</string>
     <string name="Abfall">Waste/Decline</string>
@@ -2475,7 +2462,6 @@
     <string name="Französisch">French (language)</string>
     <string name="Konsum">Consumption</string>
     <string name="Stall">Stable/Stall</string>
-    <string name="Stuttgarter">Stuttgarter/Person from Stuttgart</string>
     <string name="Betrachtung">Consideration/Examination</string>
     <string name="Atomkraftwerk">Nuclear power plant</string>
     <string name="Kreistag">District council</string>
@@ -2916,7 +2902,7 @@
     <string name="Flanke">Flank/Cross</string>
     <string name="Airline">Airline</string>
     <string name="Zorn">Anger/Wrath</string>
-    <string name="T-Shirt">T-Shirt</string>
+    <string name="T_Shirt">T-Shirt</string>
     <string name="Moor">Moor/Bog</string>
     <string name="Berner">Bernese/Person from Bern</string>
     <string name="Transparenz">Transparency</string>
@@ -3009,7 +2995,7 @@
     <string name="Verzweiflung">Despair</string>
     <string name="Schwede">Swede</string>
     <string name="Heil">Salvation/Welfare</string>
-    <string name="S-Bahn">Commuter Train</string>
+    <string name="S_Bahn">Commuter Train</string>
     <string name="Hilfsorganisation">Aid Organization</string>
     <string name="Festakt">Ceremony</string>
     <string name="Weingut">Winery</string>
@@ -3035,9 +3021,10 @@
     <string name="Todesfall">Death/Fatality</string>
     <string name="Diplom">Diploma</string>
     <string name="Schlussphase">Final Phase</string>
+    <!-- 3001-4000  -->
     <string name="Kolonie">Colony</string>
     <string name="Aussprache">Pronunciation/Discussion</string>
-    <string name="U-Bahn">Subway/Metro</string>
+    <string name="U_Bahn">Subway/Metro</string>
     <string name="Bürgerschaft">Citizens/Citizenry</string>
     <string name="Football">Football</string>
     <string name="Wahlgang">Ballot/Round of Voting</string>
