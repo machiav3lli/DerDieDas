@@ -31,20 +31,15 @@ object AnimationUtil {
     fun View.animateJumpAndSlide(context: Context, isCorrectAnswer: Boolean) {
         val jumpAnim = AnimationUtils.loadAnimation(context, R.anim.jump_animation)
         val waitAnimation = AnimationUtils.loadAnimation(context, R.anim.wait_animation)
-        waitAnimation.setAnimationListener(object : Animation.AnimationListener {
+        val animationListener = object : Animation.AnimationListener {
             override fun onAnimationStart(animation: Animation) {}
             override fun onAnimationRepeat(animation: Animation) {}
             override fun onAnimationEnd(animation: Animation) {
                 (context as WordActivity).replaceFragment()
             }
-        })
-        jumpAnim.setAnimationListener(object : Animation.AnimationListener {
-            override fun onAnimationStart(animation: Animation) {}
-            override fun onAnimationRepeat(animation: Animation) {}
-            override fun onAnimationEnd(animation: Animation) {
-                (context as WordActivity).replaceFragment()
-            }
-        })
+        }
+        waitAnimation.setAnimationListener(animationListener)
+        jumpAnim.setAnimationListener(animationListener)
 
         // if correct answer, we do jump and after that slide the new fragment,
         // if wrong, we do flash and after that slide the fragment

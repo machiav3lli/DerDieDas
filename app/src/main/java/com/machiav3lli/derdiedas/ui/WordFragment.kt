@@ -72,7 +72,7 @@ class WordFragment : Fragment(), View.OnClickListener {
             pressedButton.backgroundTintList =
                 requireContext().getColorStateList(R.color.md_theme_primary)
             pressedButton.setTextColor(requireContext().getColorStateList(R.color.md_theme_onPrimary))
-            binding.nounText.text = "${pressedButton.text} ${binding.nounText.text}"
+            "${pressedButton.text} ${binding.nounText.text}".also { binding.nounText.text = it }
             binding.nounView.animateJumpAndSlide(requireActivity(), true)
         } else if (firstClickBoolean) {
             updateList(false)
@@ -81,7 +81,7 @@ class WordFragment : Fragment(), View.OnClickListener {
             pressedButton.backgroundTintList =
                 requireContext().getColorStateList(R.color.md_theme_tertiary)
             pressedButton.setTextColor(requireContext().getColorStateList(R.color.md_theme_onTertiary))
-            binding.nounText.text = "${correctButton.text} ${binding.nounText.text}"
+            "${correctButton.text} ${binding.nounText.text}".also { binding.nounText.text = it }
             binding.nounView.animateJumpAndSlide(requireActivity(), false)
         }
         firstClickBoolean = false

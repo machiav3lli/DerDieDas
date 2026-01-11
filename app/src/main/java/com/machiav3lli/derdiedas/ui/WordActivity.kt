@@ -22,7 +22,7 @@ class WordActivity : BaseActivity() {
         binding = ActivityWordBinding.inflate(layoutInflater)
         val nounDao = NounDatabase.getInstance(this).nounDao
         val viewModelFactory = WordViewModel.Factory(nounDao, application)
-        viewModel = ViewModelProvider(this, viewModelFactory).get(WordViewModel::class.java)
+        viewModel = ViewModelProvider(this, viewModelFactory)[WordViewModel::class.java]
         supportFragmentManager
             .beginTransaction()
             .add(R.id.fragment_container, WordFragment()).commit()
