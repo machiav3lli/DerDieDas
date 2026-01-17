@@ -8,7 +8,7 @@ fun Context.getStringByName(name: String) = try {
     val resId = resources.getIdentifier(name.replace("-", "_"), "string", packageName)
     getString(resId)
 } catch (e: Resources.NotFoundException) {
-    null
+    ""
 }
 
 fun MutableList<Noun>.updateIds() = mapIndexed { index, noun ->

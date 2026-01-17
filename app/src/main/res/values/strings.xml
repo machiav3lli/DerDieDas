@@ -24,6 +24,13 @@
     <string name="finished">Fully learned all nouns, want to start over?</string>
     <string name="dialog_yes">Yes</string>
     <string name="dialog_no">No</string>
+    <string name="dialog_back">Back</string>
+    <string name="dialog_exit">Exit</string>
+    <string name="topbar_state_FORMAT">Pending: %1$d | Mastered: %2$d</string>
+    <string name="streak_state_FORMAT">Streak: %1$d 🔥</string>
+    <string name="mastered_all_nouns_FORMAT">🎉 You mastered all %1$d nouns!</string>
+    <string name="restart_session">Start New Session</string>
+    <string name="review_mastered_nouns">Review Mastered Nouns</string>
     <!-- 1-1000 -->
     <string name="Jahr">Year</string>
     <string name="Uhr">Clock</string>
