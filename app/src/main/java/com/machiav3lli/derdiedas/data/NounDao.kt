@@ -2,32 +2,56 @@ package com.machiav3lli.derdiedas.data
 
 import android.database.SQLException
 import androidx.room.Dao
+import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Update
+import kotlinx.coroutines.flow.Flow
 
 @Dao
 interface NounDao {
-    @get:Query("SELECT COUNT(*) FROM noun")
-    val count: Long
+    @Query("SELECT COUNT(*) FROM noun")
+    suspend fun getAllNounCount(): Int
+
+    @Query("SELECT COUNT(*) FROM noun WHERE isMastered = 0")
+    suspend fun getPendingNounCount(): Int
+
+    @Query("SELECT COUNT(*) FROM noun WHERE isMastered = 1")
+    suspend fun getMasteredNounCount(): Int
 
     @Insert
     @Throws(SQLException::class)
-    fun insert(vararg nouns: Noun)
+    suspend fun insert(vararg nouns: Noun)
 
     @Insert
     @Throws(SQLException::class)
-    fun insert(nouns: List<Noun>)
-
-    @get:Query("SELECT * FROM noun")
-    val all: MutableList<Noun>
+    suspend fun insertAll(nouns: List<Noun>)
 
     @Update
-    fun update(noun: Noun)
+    suspend fun update(noun: Noun)
 
-    @Update
-    fun update(nouns: List<Noun>)
+    @Query(
+        """
+        SELECT * FROM noun
+        WHERE isMastered = 0 
+          AND (totalReviews > 0 OR originalOrder < :learningWindowSize)
+        ORDER BY reviewScore DESC, originalOrder ASC
+    """
+    )
+    fun getActiveNouns(learningWindowSize: Int): Flow<List<Noun>>
+
+    @Delete
+    suspend fun delete(noun: Noun)
 
     @Query("DELETE FROM noun")
-    fun deleteAll()
+    suspend fun deleteAll()
+
+    @Query(
+        """
+        UPDATE noun
+        SET isMastered = 0, 
+            reviewScore = 100.0
+    """
+    )
+    suspend fun resetAllToActive()
 }

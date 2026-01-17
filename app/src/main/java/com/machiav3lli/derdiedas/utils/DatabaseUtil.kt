@@ -5,7 +5,7 @@ import com.machiav3lli.derdiedas.data.Noun
 import com.machiav3lli.derdiedas.data.NounDatabase
 import java.io.UnsupportedEncodingException
 
-fun Context.createNounListFromAsset(): MutableList<Noun> {
+fun Context.createNounListFromAsset(): List<Noun> {
     var nounsString: String? = null
     try {
         nounsString = FileUtils.getNounList(this)
@@ -13,14 +13,14 @@ fun Context.createNounListFromAsset(): MutableList<Noun> {
         e.printStackTrace()
     }
     val nouns = FileUtils.getLines(nounsString!!)
-    return nouns.map {
+    return nouns.mapIndexed { i, it ->
         val noun = it.split(",").toTypedArray()[0]
         val gender = it.split(",").toTypedArray()[1]
-        Noun(noun, gender, 0)
-    }.toMutableList()
+        Noun(0, noun, gender, 0, i)
+    }
 }
 
-fun Context.getNounsCount(): Long {
+suspend fun Context.getNounsCount(): Pair<Int,Int> {
     val db = NounDatabase.getInstance(this)
-    return db.nounDao.count
+    return Pair(db.nounDao.getMasteredNounCount(),db.nounDao.getAllNounCount())
 }

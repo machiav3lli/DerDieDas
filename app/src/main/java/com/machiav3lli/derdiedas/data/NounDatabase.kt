@@ -1,12 +1,22 @@
 package com.machiav3lli.derdiedas.data
 
 import android.content.Context
+import androidx.room.AutoMigration
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.machiav3lli.derdiedas.NOUN_DB_NAME
 
-@Database(entities = [Noun::class], version = 1)
+@Database(
+    entities = [Noun::class],
+    version = 2,
+    autoMigrations = [
+        AutoMigration(
+            from = 1,
+            to = 2,
+        ),
+    ]
+)
 abstract class NounDatabase : RoomDatabase() {
     abstract val nounDao: NounDao
 
