@@ -8,6 +8,7 @@ import com.machiav3lli.derdiedas.data.NounDatabase
 import com.machiav3lli.derdiedas.databinding.ActivityMainBinding
 import com.machiav3lli.derdiedas.utils.appTheme
 import com.machiav3lli.derdiedas.utils.createNounListFromAsset
+import kotlinx.coroutines.runBlocking
 
 class MainActivity : BaseActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -19,12 +20,12 @@ class MainActivity : BaseActivity() {
         setContentView(binding.root)
         val prefs = PreferenceManager.getDefaultSharedPreferences(this)
         if (prefs.getBoolean("firstrun", true)) {
-            Thread {
-                NounDatabase.getInstance(this).let {
+            NounDatabase.getInstance(this).let {
+                runBlocking {
                     it.nounDao.deleteAll()
-                    it.nounDao.insert(createNounListFromAsset())
+                    it.nounDao.insertAll(createNounListFromAsset())
                 }
-            }.start()
+            }
             prefs.edit().putBoolean("firstrun", false).apply()
         }
     }

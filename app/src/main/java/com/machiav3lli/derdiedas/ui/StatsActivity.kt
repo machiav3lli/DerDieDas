@@ -5,10 +5,10 @@ import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import com.machiav3lli.derdiedas.R
 import com.machiav3lli.derdiedas.databinding.ActivityStatsBinding
-import com.machiav3lli.derdiedas.utils.FileUtils.getNounsCount
 import com.machiav3lli.derdiedas.utils.getNounsCount
+import kotlinx.coroutines.runBlocking
 import java.io.UnsupportedEncodingException
-import java.util.*
+import java.util.Locale
 
 class StatsActivity : BaseActivity() {
     private lateinit var binding: ActivityStatsBinding
@@ -26,15 +26,16 @@ class StatsActivity : BaseActivity() {
         binding.statsInfo.setOnClickListener { onFullWords() }
     }
 
+    // TODO replace within the Composable screen
     @Throws(UnsupportedEncodingException::class)
     private fun setWordStats() {
-        val allNouns = getNounsCount(this)
         Thread {
-            val remainingNouns = this.getNounsCount()
-            val learnedWords = allNouns - remainingNouns
-            runOnUiThread {
-                findViewById<TextView>(R.id.word_stats).text =
-                    String.format(Locale.ENGLISH, "%d / %d", learnedWords, allNouns)
+            runBlocking {
+                val (learnedWords, allNouns) = this@StatsActivity.getNounsCount()
+                runOnUiThread {
+                    findViewById<TextView>(R.id.word_stats).text =
+                        String.format(Locale.ENGLISH, "%d / %d", learnedWords, allNouns)
+                }
             }
         }.start()
     }

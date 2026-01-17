@@ -1,27 +1,5 @@
 package com.machiav3lli.derdiedas.data
 
-// TODO REMOVE
-fun List<Noun>.getUpdatedNounList(noun: Noun, isCorrect: Boolean): List<Noun> {
-    if (isEmpty()) return emptyList()
-
-    val newList = this.toMutableList()
-    newList.removeAt(0)
-    val answered = noun.timesAnswered
-    if (!isCorrect) {
-        newList.add(
-            REPETITION_FOR_WRONG.coerceAtMost(size),
-            noun.copy(timesAnswered = 0)
-        )
-    } else {
-        noun.copy(timesAnswered = answered + 1).let { noun ->
-            if (noun.timesAnswered < TIMES_TO_ANSWER_TO_REMOVE) {
-                newList.add(REPETITION_FOR_CORRECT.coerceAtMost(size), noun)
-            }
-        }
-    }
-    return newList.toList()
-}
-
 fun calculateCorrectScore(
     currentScore: Double,
     streak: Int,

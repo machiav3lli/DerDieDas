@@ -12,6 +12,7 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberUpdatedState
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
@@ -31,35 +32,36 @@ fun GenderButton(
     val isCorrect = gender == correctGender
     val shouldFlash = isAnswered && isCorrect && !isSelected
     // Flash animation for correct button when wrong answer
+    val currentShouldFlash by rememberUpdatedState(shouldFlash)
     var flashState by remember { mutableIntStateOf(0) }
+
+    LaunchedEffect(shouldFlash) {
+        if (shouldFlash) {
+            repeat(4) {
+                flashState = 1
+                delay(250)
+                flashState = 0
+                delay(250)
+            }
+        }
+    }
 
     val containerColor by animateColorAsState(
         when {
             isAnswered && isSelected && isCorrect -> MaterialTheme.colorScheme.primaryContainer
-            isAnswered && isSelected && !isCorrect -> MaterialTheme.colorScheme.tertiaryContainer
-            shouldFlash && flashState == 1 -> MaterialTheme.colorScheme.primary
+            isAnswered && isSelected && !isCorrect -> MaterialTheme.colorScheme.errorContainer
+            currentShouldFlash && flashState == 1 -> MaterialTheme.colorScheme.primary
             else -> MaterialTheme.colorScheme.secondaryContainer
         }, label = "containerColor"
     )
     val contentColor by animateColorAsState(
         when {
             isAnswered && isSelected && isCorrect -> MaterialTheme.colorScheme.onPrimaryContainer
-            isAnswered && isSelected && !isCorrect -> MaterialTheme.colorScheme.onTertiaryContainer
-            shouldFlash && flashState == 1 -> MaterialTheme.colorScheme.onPrimary
+            isAnswered && isSelected && !isCorrect -> MaterialTheme.colorScheme.onErrorContainer
+            currentShouldFlash && flashState == 1 -> MaterialTheme.colorScheme.onPrimary
             else -> MaterialTheme.colorScheme.onSecondaryContainer
         }, label = "contentColor"
     )
-
-    LaunchedEffect(shouldFlash) {
-        if (shouldFlash) {
-            repeat(4) {
-                flashState = 1
-                delay(300)
-                flashState = 0
-                delay(300)
-            }
-        }
-    }
 
     Button(
         onClick = onClick,

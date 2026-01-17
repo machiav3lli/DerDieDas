@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.gradle.dsl.kotlinExtension
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -53,6 +55,11 @@ android {
     dependenciesInfo {
         includeInApk = false
         includeInBundle = false
+    }
+    packaging {
+        kotlinExtension.sourceSets.all {
+            languageSettings.enableLanguageFeature("ExplicitBackingFields")
+        }
     }
 }
 
